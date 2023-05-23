@@ -19,4 +19,4 @@ RUN cargo build --target wasm32-wasi --release
 
 FROM scratch
 ENTRYPOINT [ "rust-wasm.wasm" ]
-COPY --link --from=build /src/target/wasm32-wasi/release/rust-wam.wasm /rust-wasm.wasm
+COPY --link --from=build /src/target/wasm32-wasi/release/rust-wasm.wasm /rust-wasm.wasm
