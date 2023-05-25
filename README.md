@@ -7,7 +7,7 @@ The README for this project follows a template from:
 https://github.com/second-state/rust-examples/tree/main/hello
 
 ## Prerequisites
-Please 
+Please [install the prerequisites](prerequisite.md) first!
 
 ## Quick start with Docker
 
